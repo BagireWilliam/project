@@ -1,0 +1,310 @@
+@media only screen and (min-width: 320px) {
+    body {
+      background-color: blueviolet;
+    }
+    .main{
+        width: 100%;
+        height: 700px;
+    }
+    .top{
+        height: 100px;
+        width: 100%;
+        background-color: green;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 10px;
+    }
+     
+    .right a{
+       text-decoration: none;
+       width: 80px;
+       height: 20px;
+       background-color: goldenrod;
+       color: black;
+    }
+    .right{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-family: sans-serif;
+        grid-gap: 2px;
+    }
+    .left{
+        font-family: sans-serif;
+    }
+    .word{
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: 20px;
+        
+   }
+    .left a{
+        text-decoration: none;
+       width: 50px;
+       height: 20px;
+       background-color: goldenrod;
+       color: black;
+    }
+    .leftmiddle{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    .leftmiddle a{
+       text-decoration: none;
+       width: 90px;
+       height: 20px;
+       background-color: goldenrod;
+       color: black;
+    }
+    .rightmiddle{
+        background-color: blue;
+        width: 450px;
+        height: 500px;
+    }
+    .profile{
+        background-color: green;
+        width: 800px;
+        height: 450px;
+        border-radius: 20px;
+        padding-left: 50px;
+    }
+    .profiletop{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);    
+    }
+     .profiletop a{
+         text-decoration:none ;
+         background-color: goldenrod;
+         color: black;
+         margin-top: 20px; 
+         width: 120px;
+         height: 40px;
+         font-size: 20px;
+         border-radius: 20px;
+         text-align: center;
+         font-family: sans-serif; 
+         padding-top: 20px;
+     }
+    .profilemiddle{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 50px;
+    }
+    .rightword{
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px; 
+    }
+    .skills{
+        background-color:black;
+        width: 800px;
+        height: 450px;
+        border-radius: 20px;
+        padding-left: 50px;
+    }
+    .wordskills{
+        color: white; 
+        font-size: 20px; 
+        font-family: sans-serif;  
+    }
+     .skillstop a{
+         text-decoration:none ;
+         background-color: greenyellow;
+         color:black;
+         margin-top: 20px;
+         width: 120px;
+         height: 40px;
+         font-size: 20px;
+         border-radius: 20px;
+         text-align: center; 
+         font-family: sans-serif;
+         padding-top: 20px;
+     } 
+     .skillstop{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+     }
+     .Ability{
+        background-color:green;
+        width: 800px;
+        height: 450px;
+        border-radius: 20px;
+        padding-left: 50px;
+     }
+     .Abilitydiv{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+     }
+     .Abilityword{
+        color: white; 
+        font-size: 20px;
+        font-family: sans-serif;
+     }
+     .Abilitydiv a{
+        text-decoration:none ;
+         background-color: goldenrod;
+         color: black;
+         margin-top: 20px;
+         width: 120px;
+         height: 40px;
+         font-size: 20px;
+         border-radius: 20px;
+         text-align: center; 
+         font-family: sans-serif;
+         padding-top: 20px;
+     }
+     .Knowledge{
+        background-color:blue;
+        width: 800px;
+        height: 450px;
+        border-radius: 20px;
+        padding-left: 50px;
+     }
+     .Knowledgediv{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+     }
+     .Knowledgeword{
+        color: white; 
+        font-size: 20px;
+        font-family: sans-serif;
+     }
+     .Knowledgediv a{
+        text-decoration:none ;
+         background-color: gold;
+         color: black;
+         margin-top: 20px;
+         width: 120px;
+         height: 40px;
+         font-size: 20px;
+         border-radius: 20px;
+         text-align: center;
+         font-family: sans-serif;
+         padding-top: 20px;  
+     }
+}
+@media only screen and (min-width: 769px) {
+    body {
+      background-color: yellowgreen;
+    }
+    .top{
+        grid-gap: 100px;
+    }
+    .picture{
+        padding-left: 230px; 
+   }
+   .word{
+        color: white;
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-left: 20px;
+   }
+    .left{
+        grid-gap: 40px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .right{
+        grid-gap: 35px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .left a{
+       background-color: aqua;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 110px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    .right a{
+        background-color: aqua;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 110px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    .leftmiddle{
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+    }
+    .leftmiddle a{
+        background-color: aqua;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 110px;
+        height: 30px;
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    body {
+      background-color: purple;
+    }
+    .right{
+         padding-left: 250px;
+         grid-gap: 50px;
+         margin-right: 50px;    
+    }
+    .rightmiddle{
+         margin-top: 30px;
+        padding-left: 100px;
+        
+    } 
+    .left a{
+        background-color:goldenrod;
+       border-radius: 60px;
+       width: 100px; 
+        height: 30px;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .right a{
+        background-color:goldenrod;
+        border-radius: 60px;
+        width: 110px; 
+        height: 30px;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .leftmiddle a{
+        background-color:goldenrod;
+        border-radius: 60px;
+        grid-gap: 60px;
+        width: 110px; 
+        height: 30px;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .leftmiddle{
+        grid-gap: 20px;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) 
+    }
+    .picture{
+         padding-left: 230px; 
+    }
+    .word{
+         color: white;
+         font-family: sans-serif;
+         font-size: 30px;
+    } 
+    .top{
+        grid-gap: 60px;
+    }
+}
+
